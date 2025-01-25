@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(27, 27, 27, 0.87);
+  background-color: rgba(174, 221, 172, 0.87);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -30,9 +30,10 @@ body {
   min-height: 100vh;
 }
 
-h1 {
+h2 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: black;
 }
 
 button {
@@ -65,4 +66,14 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+li  {
+  font-size: 2.5em;
+  line-height: 1.1;
+  color: black;
+}
+p {
+  font-style: italic;
+  font-size: 1.3em;
 }
